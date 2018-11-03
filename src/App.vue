@@ -1,6 +1,7 @@
 <template>
   <div id="app">    
      <navbar></navbar>
+     <h1>test</h1>
     <button class="btn btn-sucsess"  @click="isNew =!isNew ">Create</button>
     <RecipesForm @Saverecipe="addRecipe" v-if="isNew" ></RecipesForm>
     <input type="text" class="form-control" v-model="searchtext" >
